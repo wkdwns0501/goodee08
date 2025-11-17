@@ -8,6 +8,7 @@ public class Homework04 {
 			
 		System.out.print("수집된 코드 : ");
 		int code = sc.nextInt();
+		// 변수를 사용할 경우 빈 값으로 초기화를 먼저 시켜주는게 좋다 
 		switch (code) {
 			case 400:
 				System.out.println("잘못된 요청입니다.");

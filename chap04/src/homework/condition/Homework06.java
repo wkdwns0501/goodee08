@@ -23,6 +23,7 @@ public class Homework06 {
 		int e = sc.nextInt();
 		
 		double avg = (a + b + c + d + e) / 5.0;
+		// 합격인 케이스를 조건식으로 다 작성하려고 하지말고, 불합격 케이스를 먼저 걸러내라
 		if ((a >= 40 || b >= 40 || c >= 40 || d >= 40 || e >= 40) && avg >= 60 ) {
             System.out.println("평균 점수: " + avg);
             System.out.println("합격을 축하합니다!");
