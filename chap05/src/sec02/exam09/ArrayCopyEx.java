@@ -14,7 +14,7 @@ public class ArrayCopyEx {
 		// dest: 붙여넣을 대상 배열
 		// destPos: 대상 배열에 붙여넣을 위치
 		// length: 몇 개를 복사할지
-		System.arraycopy(oldStrArray, 0, newStrArray, 0, oldStrArray.length);
+		System.arraycopy(oldStrArray, 0, newStrArray, 2, oldStrArray.length);
 		for (int i = 0; i < newStrArray.length; i++) {
 			System.out.print(newStrArray[i] + " ");
 		}
