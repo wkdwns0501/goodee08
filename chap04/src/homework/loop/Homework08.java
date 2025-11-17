@@ -22,9 +22,10 @@ public class Homework08 {
 			Inner : for (;;) {
 				System.out.print("다시 입력하시겠습니까? : ");
 				String input3 = sc.nextLine();
-				if (input3.equals("N") || input3.equals("n")) {
+//				if (input3.equals("N") || input3.equals("n")) {
+				if ("n".equalsIgnoreCase(input3)) {
 					System.out.println("프로그램 종료");
-					break Outter;
+					break Outter; // return;
 				} else if (input3.equals("Y") || input3.equals("y")) {
 					continue Outter;
 				} else {
