@@ -7,8 +7,9 @@ public class Homework08 {
 		String[] add = {"Salad","Soup"};
 		String[] result = new String[menu.length + add.length];
 		
+		// System.arraycopy (가장 빠름) 
 		System.arraycopy(menu, 0, result, 0, menu.length);
-		System.arraycopy(add, 0, result, 3, add.length);
+		System.arraycopy(add, 0, result, menu.length, add.length);
 		
 		System.out.print("어제 메뉴판 : ");
 		for (int i = 0; i < menu.length; i++) {
