@@ -14,7 +14,7 @@ public class SmartTelevisionEx {
 		Searchable searchable = tv;
 		searchable.search("https://www.google.com");
 		
-		// 다형성을 활요할 때 객체를 어떤 인터페이스 타입에 저장할지 결정하는 기준은
+		// 다형성을 활용할 때 객체를 어떤 인터페이스 타입에 저장할지 결정하는 기준은
 		// "어떤 기능만 사용할 것인가"
 		// 사용하고자 하는 기능(메소드)의 범위에 따라 선택하면 됨
 		
