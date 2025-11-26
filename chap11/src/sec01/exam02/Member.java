@@ -15,7 +15,7 @@ public class Member { // 명시적으로 상속받은게 없으면 자동으로 
 			// id 필드에 접근하기 위해 Member 타입으로 강제 타입 변환하고
 			Member member = (Member) obj;
 			// id 필드값이 동일한지 검사
-			if (id.equals(member.id)) { // 여기서의 equals()는 String에 재정의 된 메소드로 문열을 비교
+			if (id.equals(member.id)) { // 여기서의 equals()는 String에 재정의 된 메소드로 문자열을 비교
 				// 동일하다면 true를 리턴
 				return true;
 			}

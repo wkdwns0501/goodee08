@@ -6,10 +6,10 @@ public class StringIndexOfEx {
 		String subject2 = "자바 프로그래밍 자바 웹개발";
 		
 		int location = subject.indexOf("프로그래밍");
-		System.out.println(location);
-		System.out.println(subject.indexOf("자바"));
-		System.out.println(subject2.indexOf("자바", 2));
-		System.out.println(subject2.indexOf("자바", 20));
+		System.out.println(location); // 3
+		System.out.println(subject.indexOf("자바")); // 0
+		System.out.println(subject2.indexOf("자바", 2)); // 9
+		System.out.println(subject2.indexOf("자바", 20)); // -1
 		
 		if (subject.indexOf("자바") != -1) {
 			System.out.println("자바와 관련된 책");

@@ -6,7 +6,7 @@ import java.io.UnsupportedEncodingException;
 // 쓰는 경우 ?
 // 1. 파일에 문자열을 바이트로 저장할 때
 // 2. 네트워크 전송 시 문자열을 바이트로 변환할 때
-// 3. 문자열 암호화/해시 처리할때 
+// 3. 문자열 암호화/해시 처리할 때 
 public class StringGetBytesEx {
 	public static void main(String[] args) {
 		String str = "ㅎㅇ";
