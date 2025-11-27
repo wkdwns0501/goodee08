@@ -1,4 +1,4 @@
-package sec01.exam23;
+package sec01.exam22_2;
 
 // 문자열을 잘라서 배열로 만들고 다시 문자열로 합치는 예제
 public class StringSplitJoinEx {

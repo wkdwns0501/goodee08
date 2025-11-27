@@ -1,4 +1,4 @@
-package sec01.exam22;
+package sec01.exam22_1;
 
 public class StringValueOfEx {
 	public static void main(String[] args) {
