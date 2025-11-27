@@ -22,7 +22,7 @@ public class Quiz4 {
 			nameArr[i] = name;
 		}
 		
-		int random = (int) (Math.random() * input-1) + 1;
+		int random = (int) (Math.random() * input);
 		System.out.println(nameArr[random] + " 당첨!");
 		sc.close();
 		
