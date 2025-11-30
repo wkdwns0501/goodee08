@@ -82,7 +82,7 @@ public class Student implements Comparable<Student>{
 		// String 클래스에 재정의된 compareTo() 사용
 		
 //		return this.name.compareTo(other.name); // 오름차순
-		return other.name.compareTo(other.name); // 내림차순
+		return other.name.compareTo(this.name); // 내림차순
 	}
 	
 }
