@@ -44,8 +44,8 @@ public class StreamPipeLineEx {
         System.out.println("평균 점수: " + avg2);
         
         list.stream()
-            .map(student -> student.getName()) // 중간 처리
-            .forEach(t -> System.out.println(t)); // 최종 처리
+                .map(student -> student.getName()) // 중간 처리
+                .forEach(t -> System.out.println(t)); // 최종 처리
         
     }
 }
